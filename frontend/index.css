@@ -1,0 +1,157 @@
+body{
+			background-image: url('bg.jpg');
+			background-repeat: no-repeat;
+			margin: 0;
+			background-size: 200%;
+		}
+
+		#top{
+			
+			
+			height: 400px;
+ 	width: 80%;
+ 	
+ 	
+		margin-left: 10%; 
+		margin-right: 10%
+		margin-top: 100px; 
+		margin-bottom: 40px;
+		}
+		#bot{
+			
+			
+			height: 400px;
+ 	width: 80%;
+ 	
+		margin-left: 10%; 
+		margin-right: 10%
+		margin-bottom: 100px;
+		margin-top: 50px; 
+		
+
+		}
+
+		.right{
+			height: 100%;
+ 	width: 50%;
+			margin-bottom: 50px;
+			float: right;
+		}
+		#h{
+			width: 100%;
+			height: 100px;
+
+
+		}
+
+		#ctc{
+			width: 100%;
+			height: 250px;
+			background-color:#100b42 ;
+
+		}
+		#ctc2{
+			width: 100%;
+			height: 80px;
+			background-color: #03fc9d;
+			margin-bottom: 50px;
+
+		}
+
+		#kid2{
+			float:initial;
+			height: 500px;
+			width: 500px;
+		}
+		#icon{
+			display: inline;
+			height: 100%;
+			width: 100px;
+		}
+		#dv2{
+			padding-top: 100px;
+
+		}
+		#kid1{
+			margin-top: 50px;
+
+		}
+		#t2{
+			color: #100b42;
+			font-size: 35px;
+			font-family: system-ui;
+		}
+		#t3{
+			color: #100b42;
+			font-family: system-ui;
+			
+		}
+		#t1{
+			color: #780d0d;
+			font-family: system-ui;
+		}
+
+		#tel{
+			
+			display: inline;
+			margin-left: 100px;
+		}
+		#btn{
+			
+			display: inline;
+			margin-left: 800px;
+			height: 100px;
+		}
+		#hdr{
+			display: inline;
+			color: #100b42;
+			font-family: system-ui;
+		}
+		#cnx{
+			size: 30px;
+
+		}
+		a{
+			color: #780d0d;
+			font-size: 22px;
+			text-decoration: none;
+
+			
+		}
+		a:hover{
+			color:grey;
+
+		}
+
+		#p3{
+			color: white;
+			font-family: system-ui;
+		}
+		#hdr3{
+			color: white;
+			font-family: system-ui;
+		}
+		
+		#p5{
+			font-family: system-ui;
+			font-size: 14px;
+		}
+
+		#phone{
+height: 20px;
+width: 20px;
+margin-right: 10px;
+		}
+
+		#goodie{
+		height: 150px;
+		width: 400px;
+		float: right top;
+		display: inline;
+
+	}
+	#gdd{
+		display: inline;
+		float: right;
+
+	}

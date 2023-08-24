@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>gestion des etudiants</title>
+
+	<link rel="stylesheet" type="text/css" href="student.css">
+</head>
+<body >
+<div id="ctc2">	
+	<img src="01.png" id="icon" align="center" >
+	<div id="tel"><img src="phone.png" id="phone"><h3 id="hdr">0522 98 71 40 / 0522 25 11 02</h3></div>
+	
+</div>
+
+
+
+<div id="top">
+	<div id="left">
+		<table id="table">
+			
+			<tr>
+				<td>ID</td>
+				<td><input type="text" name="rechid"><input type="submit" name="btn_rech" value="rechercher"></td>
+			</tr>
+			<tr>
+				<td>NOM:</td>
+				<td><input type="text" name="nom"></td>
+			</tr>
+			<tr>
+				<td>PRENOM:</td>
+				<td><input type="text" name="prenom"></td>
+			</tr>
+			<tr>
+				<td>DATE DE NAISSANCE:</td>
+				<td><input type="text" name="date"></td>
+			</tr>
+			<tr>
+				<td>NIVEAU:</td>
+				<td><input type="text" name="niv"></td>
+			</tr>
+			<tr>
+				<td>GROUPE:</td>
+				<td><input type="text" name="grp"></td>
+			</tr>
+		</table>
+<div id="btnctr">
+	<table>
+		<tr>
+	<td><a href="" id="asm">AJOUTER</a> </td>
+	<td><a href="" id="asm">AJOUTER</a> </td>
+	 <td><a href="supprimeretud.php?code=<?php echo $ligne['id_etud']?>" id="asm">SUPPRIMER</a>  </td>
+	<td><button id="as" onclick="f();"><em>RENITIANLISER</em></button></td>
+	</tr>
+	</table>
+</div>
+	</div>
+<form method="post" action="">
+	<div id="right">
+		<div id="search"><input type="text" name="rech" placeholder="Nom,Prenom,Groupe"> <input type="submit" name="btn_search" value="rechercher"></div>
+		</form>
+		<table id="table2" cellspacing="0">
+			<tr>
+				<th>NUMERO</th>
+				<th>NOM</th>
+				<th>PRENOM</th>
+				<th>DATE DE NAISSANCE</th>
+				<th>NIVEAU</th>
+				<th>GROUPE</th>
+			</tr>
+
+		
+		</table>
+
+	</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id="h"></div>
+<div id="ctc">
+
+<table cellspacing="15px">
+	<tr>
+		<td><h3 id="hdr3">Intranet Potentiel :</h3>
+		<p id="p3" >Potentiel met à la disposition des parents un portail</p>
+		 <p id="p3">collaboratif accessible 24h/24h et 7j/7j, pour suivre toute</p>
+		 <p id="p3"> la scolarité de leurs enfants en temps réel.</p> </td>
+
+		
+		<td><h2 id="hdr3">Nos Coordonées :</h2>
+
+			<ul>
+				<li id="p3">Address: 10, Rue des Roitelets, Oasis, Casablanca-Anfa</li>
+				<li id="p3">Tél 1: 0522 98 71 40</li>
+				<li id="p3">Tél 2 / Fax: 0522 25 11 02</li>
+				<li id="p3">Cellulaire: 0666 88 35 09</li>
+				<li id="p3">Email: contact@gsrp.ma</li>
+			</ul>
+
+		 </td></tr>
+	
+	
+		
+	
+	</table>
+
+
+</div>
+
+
+</body>
+</html>
